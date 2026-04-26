@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio - Arun Prasath</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home"><i class="fas fa-code"></i> Arun Prasath</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-image">
+                <i class="fas fa-user-circle"></i>
+            </div>
+            <h1>Hi, I'm Arun Prasath</h1>
+            <p class="tagline">Student | Learner | Future Professional</p>
+            <p class="intro-text">Welcome to my portfolio. I'm passionate about technology, learning, and building amazing solutions.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate student and technology enthusiast dedicated to learning and growing in the field of technology and software development. With a keen interest in solving real-world problems through technology, I'm constantly exploring new tools and frameworks.</p>
+                    
+                    <h3>Education</h3>
+                    <p><strong>Bachelor's Degree in Computer Science</strong><br>
+                    University Name | Expected Graduation: 2026</p>
+                    
+                    <h3>Career Goals</h3>
+                    <p>My goal is to become a full-stack developer and contribute to innovative projects that make a positive impact. I'm particularly interested in web development, data science, and artificial intelligence.</p>
+                    
+                    <h3>Passion for Learning</h3>
+                    <p>I believe in continuous learning and self-improvement. I regularly take online courses, participate in workshops, and work on personal projects to enhance my skills.</p>
+                </div>
+                
+                <div class="stats">
+                    <div class="stat-card">
+                        <h4>4+</h4>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>4</h4>
+                        <p>Certifications</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>6+</h4>
+                        <p>Skills Mastered</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>100%</h4>
+                        <p>Dedication</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-comments"></i>
+                    <h3>Communication Skills</h3>
+                    <p>Excellent verbal and written communication abilities. Strong presentation skills and ability to convey complex ideas clearly.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Teamwork</h3>
+                    <p>Collaborative approach to problem-solving. Experienced in working with diverse teams and contributing effectively to group projects.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <i class="fas fa-crown"></i>
+                    <h3>Leadership</h3>
+                    <p>Ability to guide and motivate team members. Experience in leading small projects and mentoring peers.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python Programming</h3>
+                    <p>Proficient in Python with experience in data analysis, web development, and automation. Strong understanding of OOP concepts.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>Web Development</h3>
+                    <p>Knowledge of HTML5, CSS3, and JavaScript. Experience building responsive websites and understanding web design principles.</p>
+                </div>
+                
+                <div class="skill-card">
+                    <i class="fas fa-file-excel"></i>
+                    <h3>MS Office & Computer</h3>
+                    <p>Proficient in MS Office Suite (Word, Excel, PowerPoint). Strong computer skills and quick learner of new software.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Student Dropout Early Warning System</h3>
+                    <p>Developed a predictive system using machine learning to identify at-risk students early. Used Python and data analysis techniques to help educational institutions intervene proactively.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">Data Analysis</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <h3>Portfolio Website</h3>
+                    <p>Created a responsive portfolio website to showcase projects, skills, and certifications. Built with HTML5, CSS3, and JavaScript with modern design principles.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-presentation"></i>
+                    </div>
+                    <h3>PPT Creation using AI Tools</h3>
+                    <p>Explored and demonstrated the use of AI tools for automated presentation generation. Showcased how AI can streamline the creative process and save time.</p>
+                    <div class="project-tags">
+                        <span class="tag">AI Tools</span>
+                        <span class="tag">Automation</span>
+                        <span class="tag">Productivity</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Data Analysis Mini Projects</h3>
+                    <p>Conducted various data analysis mini-projects using Python, Pandas, and Excel. Analyzed real-world datasets to extract meaningful insights and trends.</p>
+                    <div class="project-tags">
+                        <span class="tag">Data Analysis</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Excel</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Python Basics</h3>
+                    <p>Completed comprehensive Python programming course covering fundamentals, data structures, and object-oriented programming.</p>
+                    <p class="cert-issuer">Issued by: Online Learning Platform</p>
+                </div>
+                
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Web Development Fundamentals</h3>
+                    <p>Learned the fundamentals of web development including HTML5, CSS3, and JavaScript with responsive design principles.</p>
+                    <p class="cert-issuer">Issued by: Web Development Course</p>
+                </div>
+                
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>AI Tools Workshop</h3>
+                    <p>Attended workshop on modern AI tools and their applications in productivity, content creation, and automation.</p>
+                    <p class="cert-issuer">Issued by: Tech Workshop Series</p>
+                </div>
+                
+                <div class="cert-card">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Communication Skills Training</h3>
+                    <p>Completed professional communication and presentation skills training to enhance interpersonal and public speaking abilities.</p>
+                    <p class="cert-issuer">Issued by: Professional Development Center</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">I'd love to hear from you! Feel free to reach out.</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:arun@example.com">arun@example.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p><a href="https://github.com/prasatharun03" target="_blank">github.com/prasatharun03</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Arun Prasath. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/prasatharun03" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:arun@example.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+// Mobile Menu Toggle
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
+const navLinks = document.querySelectorAll('.nav-link');
+
+hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+    hamburger.classList.toggle('active');
+});
+
+// Close mobile menu when link is clicked
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        hamburger.classList.remove('active');
+    });
+});
+
+// Active link highlighting on scroll
+window.addEventListener('scroll', () => {
+    let current = '';
+    const sections = document.querySelectorAll('section');
+
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        if (pageYOffset >= sectionTop - 200) {
+            current = section.getAttribute('id');
+        }
+    });
+
+    navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href').slice(1) === current) {
+            link.classList.add('active');
+        }
+    });
+});
+
+// Smooth scroll for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+// Contact Form Handling
+const contactForm = document.getElementById('contactForm');
+if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Thank you for your message! I will get back to you soon.');
+        contactForm.reset();
+    });
+}
+
+// Intersection Observer for animations
+const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -100px 0px'
+};
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.style.animation = 'fadeInUp 0.6s ease forwards';
+            observer.unobserve(entry.target);
+        }
+    });
+}, observerOptions);
+
+// Observe skill cards and project cards
+document.querySelectorAll('.skill-card, .project-card, .cert-card').forEach(card => {
+    observer.observe(card);
+});
